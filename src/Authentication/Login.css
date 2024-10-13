@@ -1,0 +1,79 @@
+/* Custom styles for login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1600x900/?technology');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(5px);
+  }
+  
+  .login-card {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .form-control {
+    border-radius: 6px;
+  }
+  
+  .is-invalid {
+    border: 2px solid #dc3545;
+  }
+  
+  .invalid-feedback {
+    color: #dc3545;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  button {
+    font-weight: bold;
+  }
+  
+  /* Style for the signup link */
+  .signup-link {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Password visibility toggle */
+  .password-wrapper {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555;
+  }
+  

@@ -1,0 +1,44 @@
+.container {
+  padding-top: 30px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #343a40;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.addCandidate {
+  position: relative;
+  left: 1000px;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 6px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(88, 88, 243);
+}
+
+.addCandidate:hover {
+  background-color: rgb(58, 58, 243);
+}

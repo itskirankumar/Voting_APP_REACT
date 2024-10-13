@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    background-color: #f5f5f5; /* Subtle light background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container */
+  .candidate-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Heading */
+  .classic-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333; /* Classic dark text */
+    text-align: left;
+    border-bottom: 2px solid #007bff; /* Blue underline */
+    padding-bottom: 10px;
+  }
+  
+  /* Card Styles */
+  .candidate-card {
+    border: 1px solid #ddd; /* Simple border for a classic look */
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: none; /* No hover effects */
+  }
+  
+  /* Card Body */
+  .card-body {
+    padding: 15px; /* Compact padding */
+    text-align: left;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  /* Card Text */
+  .card-text {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  /* Vote Button */
+  .btn-vote {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  .btn-vote:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Classic layout - spacing adjustments */
+  .card {
+    margin-bottom: 20px;
+    box-shadow: none; /* No shadow for a classic look */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .classic-heading {
+      font-size: 1.75rem;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+    }
+  
+    .btn-vote {
+      font-size: 0.85rem;
+    }
+  }
+  

@@ -1,0 +1,52 @@
+.container {
+    padding-top: 50px;
+  }
+  
+  .card {
+    border-radius: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #343a40;
+  }
+  
+  .form-label {
+    font-weight: 600;
+  }
+  
+  input.form-control {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button.btn {
+    background-color: #007bff;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  button.btn:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding-top: 30px;
+    }
+    
+    .card {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  
+    button.btn {
+      font-size: 16px;
+    }
+  }
+  

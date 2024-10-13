@@ -1,0 +1,41 @@
+/* Custom styles for the profile card */
+.profile-card {
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 8px; /* Softer rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Reduced padding */
+}
+
+.profile-info {
+  background-color: #ffffff; /* White background for profile info */
+  padding: 12px; /* Reduced padding for compact design */
+  border-radius: 6px; /* Softer corners */
+  border: 1px solid #e0e0e0; /* Lighter border */
+  margin-bottom: 10px; /* Space between info blocks */
+  display: flex; /* Align text horizontally */
+  justify-content: space-between; /* Spread label and value */
+}
+
+.profile-info h5 {
+  color: #343a40; /* Dark text color */
+  font-size: 1rem; /* Slightly smaller heading font */
+  margin: 0; /* No margin */
+}
+
+.profile-info p {
+  color: #495057; /* Dark grey for details */
+  font-size: 0.95rem; /* Slightly smaller detail text */
+  margin: 0; /* No margin */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 1.5rem; /* Slightly smaller heading */
+  color: #343a40; /* Dark text */
+  margin-bottom: 20px;
+}

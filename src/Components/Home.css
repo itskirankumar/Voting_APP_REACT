@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa; /* Light background */
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Container */
+  .candidate-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Heading */
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #343a40; /* Dark gray */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Card Styles */
+  .candidate-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+  }
+  
+  .candidate-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Body */
+  .card-body {
+    padding: 25px;
+    text-align: center;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  /* Card Text */
+  .card-text {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.6;
+  }
+  
+  /* Vote Button */
+  .btn-vote {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-vote:hover {
+    background-color: #218838;
+  }
+  
+  /* Card Hover Effect */
+  .candidate-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #007bff;
+    transition: height 0.4s ease;
+  }
+  
+  .candidate-card:hover::before {
+    height: 10px;
+    background-color: green;
+  }
+  
+  /* Responsive Media Queries */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2rem;
+    }
+    
+    .card-title {
+      font-size: 1.3rem;
+    }
+    
+    .btn-vote {
+      font-size: 1rem;
+    }
+  }
+  
